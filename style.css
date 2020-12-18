@@ -1,0 +1,365 @@
+*{margin:0;
+	padding:0;
+}
+body{
+	
+}
+.a{
+	background-color:#696969;
+	color:white;
+}
+.b{
+	font-weight:bold;
+	background-color:green;
+}.overline{
+	text-decoration:overline;
+	background-color:#FFDD45;
+	font-weight:bold;
+	
+}
+.underline{
+	text-decoration:underline;
+	background-color:#FFDD45;font-weight:bold;
+}
+.line-through{
+	text-decoration:line-through;
+	background-color:#FFDD45;font-weight:bold;
+}
+.font1{
+	font-family:arial;
+	font-weight:bold;
+	font-size:50px;
+	font-style:italic;
+	background-color:#E4E4E4;
+	line-height:2em;
+}
+.font2{
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:3em;
+	background-color:red;
+}
+.font3{
+	background-color:red;
+	font-size:3em;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.font4{
+	background-color:red;
+	font-weight:bold;
+	color:white;
+	font-size:3em;
+	text-transform:lowercase;
+}
+.line-height{
+	line-height:50%;
+	font-weight:bold;
+	font-style:italic;
+	background-color:green;
+}
+.background-img{
+	background-image:url("img/flower3444.jpg");
+	background-size:cover;
+	background-repeat:repeat-y;
+	width:700px;
+	height:200px;
+	overflow:scroll;
+}
+
+/*
+	Start-CSS for Tabler
+*/
+.table-wrapper{
+	
+}
+.table-wrapper table{
+	width:400px;
+	margin:0 auto;
+	background-color:#101010;
+	color:#fff;
+	text-align:center;
+}
+.table-wrapper table, th, tr, td{
+	border:2px solid green;
+	border-collapse:collapse;
+}
+.left{
+	text-align:left;
+}
+caption{
+	color:black;
+	font-weight:bold;
+	font-size:2em;
+}
+/*
+	End-CSS for Tabler
+*/
+
+.div1{
+		background-color:red;
+		color:white;
+		width:300px;
+		height:300px;
+		margin-bottom:20px;
+		padding:10px;
+}
+.div{
+	background-color:green;
+	color:white;
+	width:300px;
+	height:300px;
+	margin-left:20px;
+}
+
+/*
+	Display propertys
+/*
+display:block;
+display:inline;
+display:none;
+/*
+	Display propertys
+*/
+.floatleft{
+	margin-top:20px;
+	width:300px;
+	height:300px;
+	background-color:red;
+	color:white;
+	float:left;
+	
+}
+.floatright{
+	width:300px;
+	height:300px;
+	background-color:green;
+	color:white;
+	float:right;
+	margin-top:20px;
+	
+}
+.hover{
+	width:600px;
+	height:200px;
+	background-color:blue;
+	transition:all 2s ease;
+	
+}
+.hover:hover{
+	background-color:red;
+	width:400px;
+	transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	/*transform:scale(2,2);*/
+}
+.b-attachment{
+	background:url("img/nature1.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	overflow:scroll;
+}
+ul{
+	list-style-type:none;
+	list-style-type:circle;
+	list-style-type:square;
+}
+ol{
+	list-style-type:
+}
+input[type="text"]{
+	color:green;
+}
+textarea{
+	border:2px solid red;
+	border-radius:3px;
+}
+button{    
+	background-color: red;
+    width: 200px;
+    height: 51px;
+    border-radius: 5px;
+	transition:all 2s ease;
+}
+button:hover{
+	cursor:pointer;
+	background-color:green;
+	transform:rotate(360deg);
+	
+}
+/*
+	clear:left;
+	clear:right;
+	clear:both;
+*/
+.liner{
+	width:500px;
+	height:100px;
+	background:linear-gradient(red,green,#C2AC0A,#0A6FC2);
+	border-radius:8px;
+}
+.liner1{
+	width:500px;
+	height:100px;
+	background:linear-gradient(to right,red,green,#C2AC0A,#0A6FC2);
+	border-radius:8px;
+	margin-top:20px;
+}
+.radial{
+	width:500px;
+	height:100px;
+	background:radial-gradient(red 4%,green 49%,#C2AC0A 64%,#0A6FC2 98%);
+	margin-top:20px;
+	border-radius:8px;
+}
+.ani{
+	width:300px;
+	height:300px;
+	background-color:#101010;
+	margin-top:20px;
+	animation-name:masud;
+	animation-duration:2s;
+	animation-iteration-count:3;
+}
+@keyframes masud{
+	from{width:500px; background-color:red;}	
+	to{width:300px; background-color:GREEN;}
+}
+body{
+	
+}
+.ani1{
+	width:300px;
+	height:300px;
+	background-color:#101010;
+	margin-top:20px;
+	animation-name:abdullah;
+	animation-duration:5s;
+	animation-iteration-count:100;
+	animation-delay:1s;
+	position:absolute;
+	position:relative;	animation-direction:alternate;
+
+	/*
+	animation-direction:reverse;
+	*/
+	
+	
+}
+@keyframes abdullah{
+	0%{background-color:red; left:0px;top:0px;}
+	25%{background-color:green;left:400px;top:0px;width:100px;height:100px;}
+	50%{background-color:#0E55B5;top:300px;left:400px;border-radius:50%;}
+	75%{background-color:#101010;left:0px;top:300px;}
+	100%{background-color:#78732B;left:0px;top:0px;}
+	
+}
+.audio{
+	margin-left:0px;
+	margin-top:50px;
+}
+video{
+	background:green;
+	width:300px;
+	padding:20px;
+	border-radius:5px;
+	
+}
+iframe{
+	background:#101010;
+	padding:15px;
+	border-radius:4px;
+}
+.menu{
+}
+.menu ul{
+	list-style-type:none;
+	background-color:#5E990C;
+	height:48px;
+	margin:0 auto;
+	width:980px;
+	border-bottom:3px solid #137396;
+}
+.menu ul li{
+	float:left;
+	border-right:1px solid #a1e23f;
+	border-left:1px solid #477206;
+	position:relative;
+}
+.menu ul li:first-child {
+	border-left:0px;
+}
+.menu ul li:last-child {
+	border-right:0px;
+}
+.menu ul li a:hover{
+	background-color:#137396;
+	color:white;
+	border-bottom:3px solid red;
+}
+.menu ul li a{
+	text-decoration:none;
+	background-color:#5e990c;
+	color:black;
+    padding: 15px 20px;
+	display:block;
+	transition:0.3s all cubic-bezier(0.34,-0.56, 0, 0.49);
+}
+.menu ul li ul{
+	list-style-type:none;
+	left:-99999px;
+	position:absolute;
+	background:none;
+	border-bottom:0px;
+}
+.menu ul li:hover ul{
+	left:0px;
+}
+.menu ul li ul li{
+	float:none;
+	width:200px;
+	border-top:1px solid #a1e23f;
+	border-bottom:1px solid #477206;
+	border-right:none;
+	border-left:none;
+	position:relative;
+}
+
+.menu ul li ul li ul{
+	list-style-type:none;
+	top:-99999px;
+	position:absolute;
+}
+.menu ul li ul li:hover ul{
+	top:0px;
+	left:200px;
+}
+.menu ul li ul li ul li a{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
